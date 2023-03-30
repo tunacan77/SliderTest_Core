@@ -1,0 +1,72 @@
+/**{
+    outline: 1px solid red;
+}*/
+
+body {
+    /*background: #eee;*/
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+:root{ 
+    --swiper-theme-color: #ff0000;
+    --swiper-pagination-bullet-size: 16px;
+    --swiper-pagination-bottom: 0px;
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+  }
+
+.feedback {
+    padding: 32px 16px 0 16px;
+}
+
+.feedback_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback_item img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.feedback_item h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 24px 0;
+}
+
+.feedback_item p {
+    font-size: 20px;
+    text-align: left;
+    text-align: justify;
+    margin-bottom: 32px;
+    color: #5e5e5e;
+}
+
+
+/*Swiper原生語法*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /*background: #fff;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}*/
